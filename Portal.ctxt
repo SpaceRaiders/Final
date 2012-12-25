@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=next\ x\ y
+comment0.target=Portal(java.lang.Class,\ int,\ int)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekt\ Portalb\r\n\ @parameter\ next\ \:\ die\ Welt\ wo\ der\ Portal\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Diese\ Methode\ wird\ immer\ angerufen,\ wenn\ die\ Taste\ 'Act'\ oder\ 'Run'\ gedr\u00FCckt\ ist.\r\n\ Hier\ wird\ auf\ Mausklicks\ reagiert\ und\ eine\ Object\ der\ Bulet\ Klasse\ der\ Welt\ hinzugef\u00FCgt.\r\n
+comment2.params=
+comment2.target=void\ switchWorld()
+comment2.text=\r\n\ Verzweigt\ zu\ einer\ anderen\ Welt\ und\ nimmt\ den\ alle\ Objekte\ von\ Klassen\ mit,\ die\ man\ durch\ Game.gettransferCLs()\r\n\ erh\u00E4lt.\ Die\ Position\ der\ Objekte\ wird\ daabei\ beibehalten,\ nur\ der\ Roboter\ bekommt\ eine\ speziell\ ihm\ zugewiesene\r\n\ Position.\r\n
+numComments=3

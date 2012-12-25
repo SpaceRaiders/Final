@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\r\n\ Diese\ Methode\ wird\ immer\ angerufen,\ wenn\ die\ Taste\ 'Act'\ oder\ 'Run'\ gedr\u00FCckt\ ist.\r\n\ Hier\ wird\ auf\ Mausklicks\ reagiert\ und\ eine\ Object\ der\ Bulet\ Klasse\ der\ Welt\ hinzugef\u00FCgt.\r\n
+numComments=1

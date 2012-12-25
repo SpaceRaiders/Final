@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Game()
+comment0.text=\r\n\ Der\ Konstruktor\ f\u00FCgt\ alle\ Objekte\ der\ Welt\ hinzu.\r\n
+comment1.params=worldClass
+comment1.target=greenfoot.World\ getWorld(java.lang.Class)
+comment1.text=\r\n\ Sucht\ die\ Instanz\ einer\ bestimmten\ Weltenklasse\ heraus\ und\ liefert\ diese\ zur\u00FCck.\r\n\ Falls\ sie\ nicht\ gefunden\ wird,\ ist\ das\ Ergebnis\ null.\r\n\ @param\ worldClass\ Die\ Klasse\ der\ Welt,\ nach\ deren\ Instanz\ gesucht\ wird.\r\n
+comment2.params=
+comment2.target=java.lang.Class[]\ gettransferCls()
+numComments=3

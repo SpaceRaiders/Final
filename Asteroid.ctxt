@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Asteroid()
+comment0.text=\r\n\ Konstruktor.\ Erzeugt\ ein\ Objekt,\ das\ sich\ in\ ein\ eigene\ Richtung\ bewegt.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Diese\ Methode\ wird\ immer\ angerufen,\ wenn\ die\ Taste\ 'Act'\ oder\ 'Run'\ gedr\u00FCckt\ ist.\r\n\ Hier\ wird\ auf\ Mausklicks\ reagiert\ und\ eine\ Object\ der\ Bulet\ Klasse\ der\ Welt\ hinzugef\u00FCgt.\r\n
+comment2.params=
+comment2.target=void\ checkKollision()
+comment2.text=\r\n\ \u00DCberpr\u00FCft,\ ob\ Asteroiden\ mit\ irgendeine\ Rackette,\ Kugel\ oder\ andere\ Asteroide\r\n\ kollidiert\ und\ handelt\ entsprechend.\r\n
+comment3.params=
+comment3.target=void\ move()
+comment3.text=\r\n\ Bewegt\ den\ Asteroiden\ und\ dreht\ ihn,\ wenn\ er\ am\ Rand\ des\ Spielfeldes\ ist.\r\n
+comment4.params=
+comment4.target=boolean\ checkWorld()
+comment4.text=\r\n\ Diese\ Methode\ erlaubt,\ die\ Richtung\ des\ Asteroides\ zu\ \u00E4ndern\ wenn\ er\ sich\r\n\ auf\ eine\ Ecke\ befindet\ (Siehe\ Methode\ move()).\r\n
+numComments=5

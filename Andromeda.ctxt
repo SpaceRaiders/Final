@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Andromeda()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Andromeda.\r\n\ \r\n
+comment1.params=pose
+comment1.target=Andromeda(Pose)
+comment2.params=
+comment2.target=void\ prepare()
+numComments=3

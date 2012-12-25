@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=capacity
+comment0.target=RingBuffer(int)
+comment0.text=\r\n\ Erzeugt\ einen\ Ringpuffer.\r\n\ @param\ capacity\ Die\ maximale\ Anzahl\ von\ Eintr\u00E4gen,\ die\ gepuffert\ werden\ k\u00F6nnen.\r\n
+comment1.params=value
+comment1.target=void\ push(int)
+comment1.text=\r\n\ F\u00FCgt\ ein\ neues\ Element\ in\ den\ Ringpuffer\ ein.\r\n\ @param\ value\ Der\ Wert,\ der\ eingef\u00FCgt\ werden\ soll.\r\n
+comment2.params=
+comment2.target=int\ pop()
+comment2.text=\r\n\ Entnimmt\ das\ \u00E4lteste\ Element\ aus\ dem\ Ringpuffer.\r\n\ @return\ Das\ Element,\ das\ entnommen\ wurde.\r\n
+comment3.params=
+comment3.target=int\ peek()
+comment3.text=\r\n\ Liefert\ das\ \u00E4lteste\ Element\ aus\ dem\ Ringpuffer\ zur\u00FCck,\ ohne\ es\ zu\ entnehmen.\r\n\ @return\ Das\ \u00E4lteste\ Element\ im\ Ringpuffer.\r\n
+comment4.params=
+comment4.target=int\ size()
+comment4.text=\r\n\ Liefert\ die\ Anzahl\ der\ Elemente\ zur\u00FCck,\ die\ sich\ im\ Puffer\ befinden,\ d.h.\ die\r\n\ mit\ {@link\ pop()}\ entnommen\ werden\ k\u00F6nnten.\r\n\ @return\ Die\ Anzahl\ der\ belegten\ Eintr\u00E4ge\ im\ Puffer.\r\n
+comment5.params=
+comment5.target=void\ checki()
+comment5.text=\r\n\ \u00DCberpr\u00FCft,\ ob\ der\ Attribut\ i\ sich\ in\ ein\ g\u00FCltige\ Intervall\ befindet.\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Liefert\ alle\ Elemente\ von\ der\ Buffer\ zur\u00FCck.\r\n\ @return\ Eine\ String-Liste\ aller\ Elemente\ von\ der\ Buffer.\r\n
+comment7.params=
+comment7.target=boolean\ isEmpty()
+comment7.text=\r\n\ Sagt,\ ob\ der\ Buffer\ leer\ ist\ oder\ nicht.\r\n\ @return\ true\ falls\ der\ Buffer\ leer\ ist,\ false\ sonst.\r\n
+numComments=8

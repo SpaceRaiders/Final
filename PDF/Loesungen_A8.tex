@@ -1,0 +1,48 @@
+\documentclass{pi1}
+
+\begin{document}
+
+% \maketitle{Nummer}{Abgabedatum}{Tutor-Name}{Gruppennummer}
+%           {Teilnehmer 1}{Teilnehmer 2}{Teilnehmer 3}
+\maketitle{8}{16.12.2012}{Jan Winkler}{9}
+          {Vitalij Kochno}{Yorick Netzer}{Christophe Stilmant}
+
+\section{Alles super hier}
+Im unserem Projekt benutzen wir 4 Superklassen: ScrollableWorld, Scrollable, Item und Obstacle.
+Zu beginn erst mal die Idee zu unserem Spiel. Wir haben eine sichtbare Welt diese wird durch eine scrollbare Welt erweitert. Dies erreichen wir mit der ScrollableWorld-Klasse. Dort werden die x- und y-Koordinaten aller Klassen umgerechnet in die x- und y-Koordinaten der ScrollablenWorld. Desweiteren wird die Rocket als Mittelpunkt gesetzt bis sie an das echte Ende der Welt kommt.
+Scrollable verwaltet das neue move, da das move vom Actor bei uns durch die neue berchnung der x- und y-Koordinaten nicht mehr funktioniert.
+Item ist die Superklasse der sammelbare Items. Bis jetzt ist der nur unser Shield drinne, aber da noch weitere Items folgen werden haben wir uns schon mal vorbereitet.
+Zum Schluss Objects, dass ist die Superklasse die die Hindernisse verwaltet, hier wird bei einer Kollision von SpaceLemon oder BlakHole Pose ausgeführt, was zu ein weiterfleigen verhindert. 
+
+\textbf{Tests:} 
+Nachdem wir unsere ScrollableWorld erstellt hatten und auch in Scrollable und den Klassen alle eigenschaften verteilt haben, merkten wir das die Methode move aus Actor nicht mehr richtig funktioniert, deswegen haben wir eine neue geschrieben. Anschliesend hatten wir Probleme mit dem Portal. In der neuen Welt wurde die Rocket nicht mehr als Mittelpunkt betrachtet, anfangs hatten wir ja eine Array und das erste Objekt war die Rocket und dieses wurde dann zentrisiert.
+Durch wechseln der Welt wird das Array neuerstellt und die Rocket wird ja nachträglich übergeben, was dazu führt das sie nicht mehr an der ersten stelle steht.
+Dies haben wir dadurch behoben indem wir die Rocket sofort als Mittelpunkt gesetzt haben und nicht mehr durch den ersten Array Platz.
+
+
+\section{Massenkarambolage}
+Da wir eine Superklassen besitzen die über fast alle Objekte steht und es eigentlich auch diese sind die für eine Kollision wichtig sind, haben wir das Kollidieren dort programmiert.
+
+\lstinputlisting[firstnumber=350,firstline=350,lastline=401]{../Scrollable.java}
+
+\textbf{Tests:} 
+Für die ersten beiden Methoden haben wir uns mit System.out.println(methode1/2) das Ergebnis anzeigen lassen. Für die ersten Methode haben wir ganze null bekommen bis wir eine Klasse berührt haben, dann haben wir die Klasse ganze Zeit geliefert bekommen solange die Kollision besteht.\\
+Bei der zweiten Methode wurde und ganze Zeit false geliefert bis eine Kollision entstand, dann wurde true returnt. \\
+Die dritte Methode haben wir ebenfalls in System.out.println() getestet, dies war aber etwas komplizierter, da wir ganze Zeit false geliefert bekommen, dann ganz kurz ein true und dann wieder nur false bis wir ein neues Objekt berühren. Da aber die Abfrage recht schnell geht, hat man das true oft übersehen. Deswegen haben wir den Debugger verwendet. Wir hatten einen Stop auf die Zeile 358 gelegt, dort wo das true return wird und haben und dann weiter getestet ob er an der gleiche Stelle noch mehr trues ausgeben wird, hat er nicht weil es ja keine neue Kollision ist.\\
+
+\section{Richtig kollidieren}
+
+\lstinputlisting[firstnumber=234,firstline=234,lastline=250]{../Scrollable.java}
+
+Hier erstellen wir eine Array mit den Klassen und überprüfen anschliesend ob eine Kollision da ist, dann return wir das Objekt oder null. Hier haben wir schon die nächste Methoden mit einbezogen und aus der normalen Kollision eine echte Kollision erstellt.
+
+\lstinputlisting[firstnumber=307,firstline=307,lastline=348]{../Scrollable.java}
+
+Hier berechnen wir die Pixel um und testen die auf Transparent, anschliesend wird hier noch auf eine Kollisien der sichtbaren Pixel überprüft.
+
+Um in den Testmodus zu gelangen muss man rechtsklick->geerbt von ScrollableWorld -> settestmodus oder man fügt getScrWorld().getTestmodus an die passende stelle ein.
+
+\textbf{Tests:}
+Wir haben auch hier mit System.out.printIn() gearbeitet, aber das hat uns nicht viel weitergeholfen. Deswegen haben wir unsere transparenten Pixel erstmal eine Farbe gegeben, also überprüft ob sie transparent sind und dann Color.BLUE benutzt. So haben wir die echten Umrisse des Images gesehen. Desweiteren hat uns der Testmodus, nachdem wir den durch ausprobieren hinbekommen haben, geszeigt das bei einer Kollision wirklich nur die ''echten'' Pixel angemalt werden, also dort bei einer Kollision true return wird.
+\end{document}
+

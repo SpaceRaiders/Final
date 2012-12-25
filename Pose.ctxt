@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=scrble
+comment0.target=Pose(Scrollable)
+comment0.text=\r\n\ Konstruktor.\ Hier\ wird\ der\ Klasse\ Pose\ eine\ ?Referenz?\ auf\ ein\ Scrollable\ Object\ gegeben.\r\n\ (\ Scrollable\ ist\ eine\ Unterklasse\ von\ Actor).\r\n
+comment1.params=x\ y\ rot
+comment1.target=Pose(int,\ int,\ int)
+comment1.text=\r\n\ Konstruktor\ 2\r\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\r\n\ Aktualisiert\ die\ Werte\ von\ Pose\ d.h.\ die\ x\ und\ y\ Koordinate\ und\ die\ Drehung.\r\n\ Wird\ zu\ Beginn\ der\ act()\ Methode\ aufgerufen.\r\n
+comment3.params=
+comment3.target=void\ resetActor()
+comment3.text=\r\n\ Verschiebt\ das\ Scrollable-Object\ (die\ Rakete)\ so,\ dass\ der\ vorherige\ Zug\ r\u00FCckg\u00E4ngig\ gemacht\ wird.\r\n
+comment4.params=
+comment4.target=int\ getX()
+comment4.text=\r\n\ @return\ der\ x\ Wert\ von\ der\ Klasse\r\n
+comment5.params=
+comment5.target=int\ getY()
+comment5.text=\r\n\ @return\ der\ y\ Wert\ von\ der\ Klasse\r\n
+comment6.params=
+comment6.target=int\ getRot()
+comment6.text=\r\n\ @return\ die\ gespeicherte\ Rotation\ von\ der\ Klasse\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ @return\ ein\ String\ mit\ alle\ Werte\ angezeigt.\r\n
+numComments=8

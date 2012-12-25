@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=actor
+comment0.target=void\ storeActor(greenfoot.Actor)
+comment0.text=\r\n\ Diese\ Methode\ ist\ noch\ zu\ machen.\ Momentan\ tut\ sie\ nichts\r\n
+comment1.params=item
+comment1.target=void\ storeItem(Item)
+comment1.text=\r\n\ Speichert\ ein\ Item\ in\ das\ Inventar,\ wenn\ es\ nicht\ voll\ ist.\r\n
+comment2.params=scrble
+comment2.target=void\ storeScrble(Scrollable)
+comment2.text=\r\n\ Speicehrt\ ein\ Scrollable-Object\ im\ inventar.\ \r\n
+comment3.params=x\ y
+comment3.target=void\ removeScrble(int,\ int)
+comment3.text=\r\n\ Entfernt\ ein\ Objekt\ aus\ dem\ Inventar\ und\ f\u00FCgt\ es\ der\ eigentlichen\ Welt\ hinzu.\r\n\ @param\ x\ X-Koordinate\ wo\ das\ Objekt\ hinzugef\u00FCgt\ wird.\r\n\ @param\ y\ Y-Koordinate\ wo\ das\ Objekt\ hinzugef\u00FCgt\ wird\ (wir\ von\ 150\ incrementiert).\r\n
+comment4.params=
+comment4.target=Scrollable\ get()
+comment4.text=\r\n\ Kurze\ Schreibweise\ von\ get(0).\r\n
+comment5.params=i
+comment5.target=Scrollable\ get(int)
+comment5.text=\r\n\ Gibt\ das\ Objekt\ mit\ Index\ i\ aus\ dem\ Inventar.\ Der\ Index\ beginnt\ mit\ 0.\r\n\ Wenn\ kein\ Objekt\ im\ Inentar\ ist,\ wird\ null\ zur\u00FCckgegeben.\r\n\ \r\n\ @param\ i\ Index\ des\ Objektes\ im\ Inventar.\r\n
+comment6.params=
+comment6.target=boolean\ isEmpty()
+comment6.text=\r\n\ Diese\ Funktion\ gibt\ zur\u00FCck,\ ob\ das\ Inventar\ leer\ oder\ nicht\ ist.\r\n
+numComments=7

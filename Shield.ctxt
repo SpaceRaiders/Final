@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\r\n\ Diese\ Methode\ wird\ immer\ angerufen,\ wenn\ die\ Taste\ 'Act'\ oder\ 'Run'\ gedr\u00FCckt\ ist.\r\n\ Hier\ wird\ auf\ Mausklicks\ reagiert\ und\ eine\ Object\ der\ Bulet\ Klasse\ der\ Welt\ hinzugef\u00FCgt.\r\n
+comment1.params=
+comment1.target=void\ checkCollision()
+comment1.text=\r\n\ Diese\ Methode\ \u00FCberpr\u00FCft,\ ob\ das\ Shield-Objekt\ eine\ Kollision\ mit\ eine\ Rakete-Objekt\ hat.\r\n
+numComments=2

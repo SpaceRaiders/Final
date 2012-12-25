@@ -1,0 +1,13 @@
+Aufgabe 1:
+	a.)
+		!a
+	b.)
+		==true ist dann true, wenn der Ausdruck auf der Linken Seite True ist. == true ändert am wert des Ausdrucks nichts. Auch wenn der Ausdruck false sit bleibt das Ergebnis dasselbe
+	c.)
+		a<=b
+	d.)
+		if(!a){
+			b();
+		}
+	e.)
+		a.getY() liefert 150, da der Y-Wert von a nur einmal geändert wird ( a.setLocation(100,150)) die Operationen danach beieinflussen nur b. in der Zeile Actor b = a; wird b der "Wert" von a zugewiesen , a wird davon nicht beeinflusst.

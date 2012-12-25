@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=x\ y\ x2\ y2
+comment0.target=Bullet(int,\ int,\ int,\ int)
+comment0.text=\r\n\ Konstruktor\ von\ Bullet.\r\n\ Stellt\ die\ Drehung\ so\ ein,\ dass\ die\ Kugel\ sich\ auf\ die\ Zielposition\ zubewegt.\r\n\ \r\n\ @param\ x\:\ X-Wert\ der\ Ausgangsposition\r\n\ @param\ y\:\ Y-Wert\ der\ Ausgangsposition\r\n\ @param\ x2\:\ X-Wert\ der\ Zielposition\r\n\ @param\ y2\:\ Y-Wert\ der\ Zielposition\r\n\ \r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Diese\ Methode\ wird\ immer\ angerufen,\ wenn\ die\ Taste\ 'Act'\ oder\ 'Run'\ gedr\u00FCckt\ ist.\r\n\ Die\ Kugel\ bewegt\ sich\ solange\ geradeaus,\ bis\ sie\ von\ der\ Welt\ gel\u00F6scht\ wird.\ (\ nach\ lifetime\ frames)\r\n
+numComments=2

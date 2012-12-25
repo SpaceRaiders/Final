@@ -1,0 +1,3 @@
+biglaser.wav   		->	AlienArena
+bomb-1			->	BAttle for Wesnoth
+
